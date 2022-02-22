@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>BACKEND_REST_BASE_URL</key>
+	<string>$(BACKEND_REST_BASE_URL)</string>
+	<key>IMAGES_BASE_URL</key>
+	<string>$(IMAGES_BASE_URL)</string>
+	<key>COUNTRY_REST_API_BASE_URL</key>
+	<string>$(COUNTRY_REST_API_BASE_URL)</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

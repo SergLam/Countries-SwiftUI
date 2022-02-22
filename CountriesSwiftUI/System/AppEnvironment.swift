@@ -64,13 +64,13 @@ extension AppEnvironment {
     private static func configuredWebRepositories(session: URLSession) -> DIContainer.WebRepositories {
         let countriesWebRepository = RealCountriesWebRepository(
             session: session,
-            baseURL: "https://restcountries.eu/rest/v2")
+            baseURL: AppConfig.countriesRestBaseURL.absoluteString)
         let imageWebRepository = RealImageWebRepository(
             session: session,
-            baseURL: "https://ezgif.com")
+            baseURL: AppConfig.imagesBaseURL.absoluteString)
         let pushTokenWebRepository = RealPushTokenWebRepository(
             session: session,
-            baseURL: "https://fake.backend.com")
+            baseURL: AppConfig.backendRestBaseURL.absoluteString)
         return .init(imageRepository: imageWebRepository,
                      countriesRepository: countriesWebRepository,
                      pushTokenWebRepository: pushTokenWebRepository)

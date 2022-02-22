@@ -14,6 +14,7 @@
 		0406ACAD269C015900DEA771 /* SharedTypealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406ACAC269C015900DEA771 /* SharedTypealiases.swift */; };
 		0406ACB0269C02B600DEA771 /* Prod.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0406ACAF269C02B600DEA771 /* Prod.xcconfig */; };
 		0406ACB3269C031300DEA771 /* Dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0406ACB2269C031300DEA771 /* Dev.xcconfig */; };
+		0457E9F2269C21460067EFBE /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457E9F1269C21460067EFBE /* AppConfig.swift */; };
 		52333A932654463B0034072B /* UIOpenURLContext_Init.m in Sources */ = {isa = PBXBuildFile; fileRef = 52333A922654463B0034072B /* UIOpenURLContext_Init.m */; };
 		F60829712369CE0100DB292E /* RequestMocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60829702369CE0100DB292E /* RequestMocking.swift */; };
 		F60829732369CE5300DB292E /* MockedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60829722369CE5300DB292E /* MockedResponse.swift */; };
@@ -118,6 +119,7 @@
 		0406ACAC269C015900DEA771 /* SharedTypealiases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTypealiases.swift; sourceTree = "<group>"; };
 		0406ACAF269C02B600DEA771 /* Prod.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Prod.xcconfig; sourceTree = "<group>"; };
 		0406ACB2269C031300DEA771 /* Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Dev.xcconfig; sourceTree = "<group>"; };
+		0457E9F1269C21460067EFBE /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		52333A90265445F30034072B /* UnitTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		52333A91265445F30034072B /* UIOpenURLContext_Init.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIOpenURLContext_Init.h; sourceTree = "<group>"; };
 		52333A922654463B0034072B /* UIOpenURLContext_Init.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIOpenURLContext_Init.m; sourceTree = "<group>"; };
@@ -306,6 +308,7 @@
 		0406ACAE269C028200DEA771 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
+				0457E9F1269C21460067EFBE /* AppConfig.swift */,
 				0406ACAF269C02B600DEA771 /* Prod.xcconfig */,
 				0406ACB2269C031300DEA771 /* Dev.xcconfig */,
 			);
@@ -745,6 +748,7 @@
 				F695DF8624559F8D00A65A04 /* PushNotificationsHandler.swift in Sources */,
 				F67F62B324430AE800A6ED11 /* CoreDataStack.swift in Sources */,
 				0406AC9F269BF14500DEA771 /* NSSet+Ext.swift in Sources */,
+				0457E9F2269C21460067EFBE /* AppConfig.swift in Sources */,
 				F6BDB91623636865003E69F2 /* DetailRow.swift in Sources */,
 				F661F2CC23783E360014E142 /* Helpers.swift in Sources */,
 				F60B5E3D2438DA47009BCBB3 /* CancelBag.swift in Sources */,
